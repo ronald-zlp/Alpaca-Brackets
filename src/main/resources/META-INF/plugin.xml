@@ -1,0 +1,13 @@
+<idea-plugin>
+    <id>com.ronald.alpacabrackets</id>
+    <name>Alpaca Brackets</name>
+    <vendor email="ronald@example.com">Ronald</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.java</depends>
+    <depends>com.intellij.modules.xml</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <postStartupActivity implementation="com.ronald.alpacabrackets.highlighting.AlpacaBracketFocusStartupActivity"/>
+    </extensions>
+</idea-plugin>
